@@ -1,0 +1,8 @@
+[build]
+  command = "# no build needed"
+  functions = "netlify-functions"
+
+[[redirects]]
+  from = "/"
+  to = "/.netlify/functions/proxy"
+  status = 200
